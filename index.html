@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Navbar - Html Css Javascript</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Font awesome  -->
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <!-- Swiper.js -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+  <!-- Main css -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- header start -->
+ <header class="header">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div class="logo">
+            <img class="logo-img" src="img/test.svg" alt="logo" >
+               <a href="#">Solarly</a>
+            </div>
+            <button type="button" class="nav-toggler">
+               Menu
+            </button>
+            <nav class="nav">
+               <ul id="list">
+               <li><a href="#solutions" class="active">Solutions</a></li>
+               <li><a href="#apropos">À propos</a></li>
+               <li><a href="#impact">Impact</a></li>
+               <li><a href="#actualités">Actualités</a></li>
+               <li><a href="#faq">FAQ</a></li>
+               <li><button class="contact-btn"><a href="#Contact">Contact</a></button></li>
+               <li class="sep">|</li>
+               <li class="dropdown">
+               <a href"#fr" class="dropdown">FR
+               <i class="fas fa-chevron-down"></i>
+              </a>
+               <div class="dropdown-content">
+                 <a href="#en">EN</a>
+                 </div>
+                </li>
+            </ul>
+         </nav>
+     </div>
+ </div>
+</header>
+<!-- header end -->
+ 
+ 
+<!-- Home Section Start -->
+  <section class="home-section align-items-center" id="home">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="home-text">
+          <h1>Des solutions solaires innovantes qui apportent à tous un<span> accès fiable à l'énergie</span></h1>
+          <h4>Aujourd'hui, plus de 590 millions de personnes en Afrique sub-saharienne n'ont pas accès à l'électricité. Nous avons donc développé des systèmes solaires connectés, abordables et durables pour les ménages, les entreprises et les lieux communautaires. </h4>
+          <a href="#solutions" class="btn link-item">Découvrez nos kits solaires</a>
+         <a href="#about">
+         <div class="scroll-down"></div>
+         </a>
+        </div>
+        <div class="home-img">
+          <div class="img-box">
+          <div class="circle">
+        </div>
+          <img src="img/P1020201 1.png" alt="person">
+          </div>
+         </div>
+      </div>
+    </div>
+    
+  </section>
+  <!-- Home Section End -->
+  
+  <!-- About section start -->
+  <section class="about-section align-items-center" id="about">
+     <div class="container">
+      <div class="row align-items-center">
+      <div class="about-img">
+      <div class="about-box">
+          <img src="img/_DSC2963 1.png"  alt="person">
+        </div>
+        </div>
+        <div class="about-text">
+          <h3>About</h3>
+          <h2>Avancez dans la vie avec une solution adaptée<span> à vos besoins</span> </h2>  
+          <h4>Notre team Belgo-Camerounais, composé d'un réseau de techniciens et de commerciaux, est issu de toutes les régions du Cameroun. Ensemble, nous sommes sortis des sentiers battus pour développer et distribuer des solutions adaptées aux réalités du terrain et répondre ainsi à un besoin primordial. </h4>         
+          <a href="#apropos" class="about-btn ">Notre histoire</a>
+         </div>
+    </div>
+    </div>
+  </section>
+  <!-- About Section End -->
+
+  <!-- Solutions Section Start -->
+  <section class="advantage-section align-items-center" id="advantage">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="advantage-text">
+        <h2> Les avantages des <span class="text-yellow">
+        <br>solutions Solarly</span></h2>
+         <div class="swiper">
+          <div class="swiper-wrapper">
+           <div class="swiper-slide">Connectée et intelligente, permettant un suivi à distance</div>
+            <div class="swiper-slide">Made In Belgium avec deux ans de garantie</div>
+            <div class="swiper-slide">Installation sur mesure et évolutive assurée par notre équipe</div>
+            <div class="swiper-slide">Abordable grâce aux solutions de paiements mobiles</div>
+          </div>
+          <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+          <a href="#solutions" class="advantage-btn">En savoir plus</a>
+         </div>
+         <div class="advantage-img">
+         <div class="advantage-img-inner">
+           <div class="advantage-spin">
+             <div class="spin-item"><i class="fas fa-desktop"></i></div>
+             <div class="spin-item"><i class="fas fa-car-battery"></i></div>
+             <div class="spin-item"><i class="fas fa-house-user"></i></div>
+             <div class="spin-item"><i class="fas fa-lightbulb"></i></div>
+           </div>
+          <img src="img/20210805103903_IMG_4090-2 2.png" alt="person">
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Advantage Section End -->
+  
+  <script src="js/script.js"></script>
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script>
+const swiper = new Swiper('.swiper', {
+   pagination: {
+     el: '.swiper-pagination',
+   },
+   navigation: {
+     nextEl: '.swiper-button-next',
+     prevEl: '.swiper-button-prev',
+   },
+ });
+ </script>
+</body>
+</html>
