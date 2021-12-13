@@ -671,7 +671,7 @@ border-radius: 0px 16px 16px 0px; ;
 	}
 
 	.scroll-down,
-	.dropdown{
+	.dropdown,.sep{
 		display: none;
 	}
 	.header .nav.open{
@@ -711,7 +711,7 @@ border-radius: 0px 16px 16px 0px; ;
 
 	 .advantage-text h2{
 		text-align: center;
-	margin-top:  -61px;
+	    margin-top:  -61px;
 		font-size: 22px;
 		line-height: 35px;
 	 }
