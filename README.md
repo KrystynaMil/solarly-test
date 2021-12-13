@@ -1,4 +1,4 @@
-# solarly-test
+# Solarly-test
 
 ## Table of contents
 
