@@ -8,12 +8,13 @@
     const nav = document.querySelector(".nav");
     const contactBtn = document.querySelector(".contact-btn");
     nav.classList.toggle("open");
-    
+    const sep = document.querySelector(".sep");
 
     if(nav.classList.contains("open")){
     	nav.style.maxHeight = nav.scrollHeight + "px";
        navToggler.innerHTML = 'Close'; 
        contactBtn.style.left = "100px";
+       sep.remove();
        }
      else{
     	nav.removeAttribute("style");

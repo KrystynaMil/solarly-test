@@ -248,7 +248,6 @@ img{
 	border-radius: 50%;
 	transform: translate(35%,-35%);
 	
-	
 	}
 
 .btn {
@@ -781,9 +780,7 @@ border-radius: 0px 16px 16px 0px; ;
      width: 400px;
      height: 54px;
 }
-.circle {
-	display: none;
-}
+
 	}
  
  
