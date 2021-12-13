@@ -17,7 +17,7 @@
 
 ## Screenshots
 
-![Example screenshot]()
+![Example screenshot](https://github.com/KrystynaMil/solarly-test/blob/main/img/Test.png)
 
 ## Technologies
 
