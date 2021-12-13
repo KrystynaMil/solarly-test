@@ -101,6 +101,9 @@ img{
 .fr{
 	display: none;
 }
+.fa-grip-lines-vertical{
+	color: var(--main-color-1);
+}
 /* dropdown button */
 .dropdown {
 	position: relative;
@@ -166,15 +169,10 @@ img{
 		color:var(--main-color);
 		
 	}
-.fas {
-		color: #4FA67C;
-	   
-	}
-	.sep {
-		color: var(--main-color-1);
-		font-size: large;
-	   font-weight: bold;
-	}
+.fa-chevron-down{
+	color: var(--main-color);
+}
+	
 
 
 /* custom scrollbar */
@@ -528,7 +526,7 @@ border-radius: 0px 16px 16px 0px; ;
 				transform: scale(1);
 			}
 			50%{
-				transform: scale(1);
+				transform: scale(0.9);
 			}
 		}
 		
@@ -662,7 +660,8 @@ border-radius: 0px 16px 16px 0px; ;
 	}
 
 	.scroll-down,
-	.dropdown,.sep{
+	.dropdown,
+	.fa-grip-lines-vertical {
 		display: none;
 	}
 	.header .nav.open{
@@ -679,6 +678,7 @@ border-radius: 0px 16px 16px 0px; ;
 		display: block;
 		margin: 10px;
 		}
+		
  }
  @media(max-width:767px){
 	 
