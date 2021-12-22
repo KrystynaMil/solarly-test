@@ -13,11 +13,11 @@
 
 ## General info
 
-> Frontend Test Atelier Design
+> Frontend Test 
 
 ## Screenshots
 
-![Example screenshot](https://github.com/KrystynaMil/solarly-test/blob/main/img/Test.png)
+![Example screenshot]()
 
 ## Technologies
 
